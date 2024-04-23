@@ -1,0 +1,19 @@
+.create-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.create-form input,
+textarea {
+  font-size: large;
+  font-family: sans-serif;
+}
+
+.create-form button {
+  font-size: large;
+  font-family: sans-serif;
+  margin-top: 10px;
+  width: fit-content;
+  align-self: end;
+}

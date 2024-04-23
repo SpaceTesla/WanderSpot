@@ -1,0 +1,115 @@
+.navbar {
+  height: 5rem;
+  background-color: white;
+}
+
+.fa-compass {
+  color: #ff395c;
+}
+
+.f-info {
+  height: 8rem;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.f-info-socials {
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.f-info-socials i {
+  margin: 0 0.5rem;
+}
+
+.f-info-links {
+  width: 100%;
+}
+
+.f-info-links a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+
+/** {*/
+/*  font-family: Arial, helvetica, sans-serif;*/
+/*  transition: 0.3s;*/
+/*}*/
+
+/*.container {*/
+/*  max-width: 800px;*/
+/*  margin: auto;*/
+/*}*/
+
+/*ul {*/
+/*  list-style: none;*/
+/*  padding-left: 0;*/
+/*}*/
+
+/*li {*/
+/*  font-size: x-large;*/
+/*  !*padding: 8px;*!*/
+/*  border: 1px solid #ccc;*/
+/*  margin: 8px 0;*/
+/*  cursor: pointer;*/
+/*  border-radius: 16px;*/
+/*  padding: 8px 16px;*/
+/*  transition: 0.3s;*/
+/*}*/
+
+/*li:hover {*/
+/*  background-color: #f4f4f4;*/
+/*  color: rebeccapurple;*/
+/*}*/
+
+/*.btn {*/
+/*  font-size: x-large;*/
+/*  font-weight: bold;*/
+/*  border: 1px solid black;*/
+/*  padding: 8px 16px;*/
+/*  border-radius: 16px;*/
+/*  text-decoration: none;*/
+/*  background: white;*/
+/*  color: #004b91;*/
+/*  cursor: pointer;*/
+/*}*/
+
+/*.btn:hover {*/
+/*  background-color: #f4f4f4;*/
+/*  color: rebeccapurple;*/
+/*}*/
+
+/*.buttons {*/
+/*  display: flex;*/
+/*  justify-content: space-between;*/
+/*}*/
+
+/*.create-form {*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  !*width: 50%;*!*/
+/*}*/
+
+/*.create-form input,*/
+/*textarea {*/
+/*  font-size: large;*/
+/*  font-family: sans-serif;*/
+/*  border: 1px solid black;*/
+/*  border-radius: 16px;*/
+/*  padding: 8px 16px;*/
+/*  margin: 8px 0;*/
+/*}*/
+
+/*.create-form button {*/
+/*  margin: 8px 0;*/
+/*  width: fit-content;*/
+/*  align-self: end;*/
+/*}*/
