@@ -1,3 +1,13 @@
+/*// <uniquifier>: Use a unique and descriptive class name*/
+/*// <weight>: Use a value from 200 to 800*/
+
+* {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .navbar {
   height: 5rem;
   background-color: white;
@@ -39,77 +49,34 @@
   text-decoration: underline;
 }
 
-/** {*/
-/*  font-family: Arial, helvetica, sans-serif;*/
-/*  transition: 0.3s;*/
-/*}*/
+/*Cards*/
+.card {
+  border: none;
+  margin-bottom: 2rem;
+}
 
-/*.container {*/
-/*  max-width: 800px;*/
-/*  margin: auto;*/
-/*}*/
+.card-img-top {
+  border-radius: 1rem;
+  width: 100% !important;
+  object-fit: cover;
+}
 
-/*ul {*/
-/*  list-style: none;*/
-/*  padding-left: 0;*/
-/*}*/
+.card-body {
+  padding: 0;
+}
 
-/*li {*/
-/*  font-size: x-large;*/
-/*  !*padding: 8px;*!*/
-/*  border: 1px solid #ccc;*/
-/*  margin: 8px 0;*/
-/*  cursor: pointer;*/
-/*  border-radius: 16px;*/
-/*  padding: 8px 16px;*/
-/*  transition: 0.3s;*/
-/*}*/
+.listing-link {
+  text-decoration: none;
+  width: fit-content;
+}
 
-/*li:hover {*/
-/*  background-color: #f4f4f4;*/
-/*  color: rebeccapurple;*/
-/*}*/
+/* Overlay Effect */
+.card-img-overlay {
+  opacity: 0;
+}
 
-/*.btn {*/
-/*  font-size: x-large;*/
-/*  font-weight: bold;*/
-/*  border: 1px solid black;*/
-/*  padding: 8px 16px;*/
-/*  border-radius: 16px;*/
-/*  text-decoration: none;*/
-/*  background: white;*/
-/*  color: #004b91;*/
-/*  cursor: pointer;*/
-/*}*/
-
-/*.btn:hover {*/
-/*  background-color: #f4f4f4;*/
-/*  color: rebeccapurple;*/
-/*}*/
-
-/*.buttons {*/
-/*  display: flex;*/
-/*  justify-content: space-between;*/
-/*}*/
-
-/*.create-form {*/
-/*  display: flex;*/
-/*  flex-direction: column;*/
-/*  !*width: 50%;*!*/
-/*}*/
-
-/*.create-form input,*/
-/*textarea {*/
-/*  font-size: large;*/
-/*  font-family: sans-serif;*/
-/*  border: 1px solid black;*/
-/*  border-radius: 16px;*/
-/*  padding: 8px 16px;*/
-/*  margin: 8px 0;*/
-/*}*/
-
-/*.create-form button {*/
-/*  margin: 8px 0;*/
-/*  width: fit-content;*/
-/*  align-self: end;*/
-/*}*/
+.card-img-overlay:hover {
+  opacity: 0.15;
+  background-color: white;
+  transition: 0.2s;
+}
