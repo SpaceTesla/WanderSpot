@@ -1,20 +1,25 @@
 <% layout("/layouts/boilerplate") %>
 
-<body>
-  <h3>Details of the user</h3>
-  <ul>
-    <li><%= listing._id %></li>
-    <li><%= listing.title %></li>
-    <li><%= listing.description %></li>
-    <li>&#x20b9 <%= listing.price.toLocaleString("en-IN") %></li>
-    <li><%= listing.location %></li>
-    <li><%= listing.country %></li>
-  </ul>
-  <div class="buttons">
-    <a href="/listings/<%= listing._id %>/edit" class="edit btn">Edit</a>
-    <form method="POST" action="/listings/<%= listing._id %>?_method=DELETE">
-      <button type="submit" class="btn">Delete</button>
-    </form>
+<div class="row">
+  <div class="card col-8 offset-2">
+    <h3 class="mb-3">Listing Details</h3>
+    <img src="<%= listing.image.url %>" class="card-img-top mb-3" alt="card_img"  style="height: 24rem;">
+    <div class="card-body">
+      <h5 class="card-title"><%= listing.title %></h5>
+      <p class="card-text"><%= listing.description %></p>
+    </div>
+    <ul class="list-group list-group-flush mb-3">
+      <li class="list-group-item">&#x20b9 <%= listing.price.toLocaleString("en-IN") %> night</li>
+      <li class="list-group-item"><%= listing.location %></li>
+      <li class="list-group-item"><%= listing.country %></li>
+    </ul>
+    
+    <div class="card-body d-flex justify-content-between">
+      <a href="/listings/<%= listing._id %>/edit" class="btn btn-dark mb-3">Edit Listing</a>
+      <form method="POST" action="/listings/<%= listing._id %>?_method=DELETE">
+        <button type="submit" class="btn btn-danger mb-3">Delete Listing</button>
+      </form>
+    </div>
   </div>
-  
-</body>
+
+</div>
