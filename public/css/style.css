@@ -8,8 +8,23 @@
   font-style: normal;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+}
+
 .navbar {
   height: 5rem;
+  background-color: white;
+  margin-bottom: 1rem;
+}
+
+.navbar-collapse {
   background-color: white;
 }
 
@@ -79,4 +94,10 @@
   opacity: 0.15;
   background-color: white;
   transition: 0.2s;
+}
+
+/* New Page */
+.add-button {
+  background-color: #ff395c;
+  color: white;
 }
